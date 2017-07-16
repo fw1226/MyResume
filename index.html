@@ -1,0 +1,487 @@
+<!--<!DOCTYPE html>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>My Visual Resume</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<style type="text/css">
+		.newsection{
+			display: -webkit-flex; /* Safari */
+    		-webkit-align-items: center; /* Safari 7.0+ */
+    		display: flex;
+    		/*position: relative;*/
+    		margin-left: auto;
+    		margin-right: auto;
+    		/*position: absolute;*/
+    		align-items: center;
+    		padding: 0;
+    		left: expression((body.clientWidth-50)/2);
+            top: expression((body.clientHeight-50)/2);
+		}
+		.fpclass{
+			position: absolute;
+			align-content: center;
+			margin-left: auto;
+    		margin-right: auto;
+			width: 100%;
+			height: 100%;
+            left: expression((body.clientWidth-50)/2);
+            top: expression((body.clientHeight-50)/2);
+		}
+	</style>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			  sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc8c', '#ccddff','#eeddaa','#25efc3', '#1bbc90', '#ccddff','#1eddaa','#25efc3'],
+			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage','6thPage','7thPage', '8thPage', '9thPage','10thPage','11thPage'],
+			  menu: '#menu',
+			  continuousVertical: true
+			});
+		});
+	</script>
+	</head>
+	<body>
+	<ul id="menu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">1</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">2</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">3</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">4</a></li>
+	<li data-menuanchor="5thPage"><a href="#5thPage">5</a></li>
+	<li data-menuanchor="6thPage"><a href="#6thPage">6</a></li>
+	<li data-menuanchor="7thPage"><a href="#7thPage">7</a></li>
+	<li data-menuanchor="8thPage"><a href="#8thPage">8</a></li>
+	<li data-menuanchor="9thPage"><a href="#9thPage">9</a></li>
+	<li data-menuanchor="10thPage"><a href="#10thPage">10</a></li>
+	<li data-menuanchor="11thPage"><a href="#11thPage">11</a></li>
+    </ul>	
+    <div id="fullpage" class="fpclass">
+	<div class="section newsection" id="section0">
+		<span id="result" style="position: absolute; font-size: 0.5em;top: 0px; left: 0px;"></span><br/>
+			 <span id="Welcome" style="position: absolute; font-size: 1.5em;top: 100px; left: 100px;">Welcome to my visual resume</span><br/>
+			 
+        <span id="Ename" class="transforms " style="position: absolute;align-self:center;color: blue; font-size: 3em;left: 100px;width: 600px;top: 200px;">Stephen Fu</span><br/>
+        <span id="Title" class="transforms" style="position: absolute;color: green; font-size: 2em;left: 100px;top: 300px;">Staff Application Engineer</span> 
+        <img id="Fwpic" src="img/fuwei.png" width="150" style="position: absolute;left: 650px;top: 250px;"/>
+         <span id="Introd" style="position: absolute;color: green; font-size: 1.5em;left: 100px;top: 355px;text-align: justify;width: 500px; ">Skilled engineering professional with 13 years working experience in semiconductor testing and Automate Test Equipment industry.<br/></span>
+	</div>
+	<div class="section newsection" id="section1">
+		<span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">I currently live here...</span>
+		 <span id="Scity" style="position: absolute; font-size: 1.5em;left: 100px;top: 200px;">The Garden City,The Republic of Singapore</span>
+			 <img id="Garden" src="img/gardens-by-the-bay.jpg" width="900" height="500" style="position: absolute;left: 50px;top: 250px;"/>
+			 
+	
+		
+	</div>
+	<div class="section newsection" id="section2">
+            <span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">I recently worked at...</span>
+			<img src="img/advantest.jpg" width="900" height="260" style="position:absolute;left:50px;top:180px;"/>
+            <img src="img/advantest.png" style="position: absolute;left: 80px;top: 230px;"/>   
+            
+             <span style="position: absolute;color: green; font-size: 2em;left: 50px;top: 450px;">Staff System Application Engineer</span> 
+             <span style="position: absolute;color: blue; font-size: 1.5em;left: 50px;top: 485px;">2012.4~today</span> 
+
+             <p style="position: absolute;color:#005678; font-size: 1em;left: 50px;top: 530px; text-align: justify;width: 900px;"> 
+             Provide residential technical consultation to Product Development and Test Engineering group at Qualcomm
+             Test Center of Excellence (TCE) in Singapore. Develops test solutions for design verification of highly
+             integrated Mobile Station Modem (MSM)/ Mobile Data Modem (MDM),Mobile wireless RF receivers, transmitters,
+			 transceivers, low noise amplifiers, and power amplifiers, power management, analog and mixed signal ASICs 
+			 designed by QCT. Work with Design, Foundry, Program Management, Yield and Manufacturing teams to create,
+			 commercialize and support QCTs products.
+             </p> 
+		
+
+	</div>
+	
+		<div class="section newsection" id="section3">
+			<span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">Previously worked at...</span>
+			<img src="img/v93k.png" width="900" height="320" style="position: absolute;left: 50px;top:180px;"/>
+			 <span style="position: absolute;color:green; font-size: 2em;left: 50px;top: 515px;">Senior System Application Engineer</span> 
+             <span style="position: absolute;color:blue; font-size: 1.5em;left: 50px;top: 550px;">2010.8~2012.4</span> 
+             
+             <p style="position: absolute;height: 5px; color:green; font-size: 1em;left: 50px;top: 595px; text-align: justify;width: 900px;"> 
+              Provide pre/post-sales technical support for V93000 Systems to new and existing customers and global accounts in Singapore.Understand customers testing needs and propose testing solutions to meet those needs. Lead test program development and productivity improvement projects, Resolve customer’s pre/post production test program issues to minimize tester down time, time to high volume manufacturing. Deliver training programs to enable the customer’s engineers to better utilize the test system. Develops and execute support plans as part of the customer account team.
+             </p> 
+		
+		
+	</div>
+		<div class="section newsection" id="section4">
+		 <span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">Have ever worked at...</span>
+			<img src="img/stericsson.jpg" width="720" height="150" style="position: absolute;left: 50px;top:180px;"/>
+			 <span style="position: absolute;color:green; font-size: 2em;left: 50px;top: 335px;">Senior Test Engineer</span> 
+             <span style="position: absolute;color:blue; font-size: 1.5em;left: 480px;top: 338px;">2009.7~2010.7</span> 
+             
+             <img src="img/charteredSemi.png" width="720" height="150" style="position: absolute;left: 50px;top:380px;"/>
+			 <span style="position: absolute;color:green; font-size: 2em;left: 50px;top: 530px;">Senior Engineer</span> 
+             <span style="position: absolute;color:blue; font-size: 1.5em;left: 480px;top: 533px;">2007.9~2009.2</span> 
+            
+            <img src="img/teradyne.jpg" width="720" height="150" style="position: absolute;left: 50px;top:580px;"/>
+			 <span style="position: absolute;color:green; font-size: 2em;left: 50px;top: 730px;">Senior Application Engineer</span> 
+             <span style="position: absolute;color:blue; font-size: 1.5em;left: 480px;top: 733px;">2004.7~2007.9</span> 
+
+	</div>
+		<div class="section newsection" id="section5">
+		    <span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">I graduated from...</span>
+			  <img src="img/hitgate1.jpg" width="720" height="250" style="position: absolute;left: 70px;top:280px;"/>
+             <img src="img/HIT.jpg" width="720" height="150" style="position: absolute;left: 70px;top:180px;"/>
+             <p style="position: absolute;height: 5px; color:green; font-size: 2em;left: 180px;top: 540px; text-align: justify;width: 900px;">Harbin Institute of Technology, PRC</p> 
+             <p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 180px;top: 575px; text-align: justify;width: 900px;"> Master of Mechatronics, HIT Robot Research Institute</p> 
+             <p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 380px;top: 600px; text-align: justify;width: 900px;">2004.7</p>
+              <p style="position: absolute;height: 5px; color:green; font-size: 1em;left: 50px;top: 625px; text-align: justify;width: 900px;">Design, constitute and debug the hardware of the prosthetic handcontrol system,and to build up its application programming related.The system uses TMS320C2810 DSP as microcontroller which communicates with 3 step motor controller through SPI/McBSP to control motion of 3 step motors synchronously,also fulfill getting signal from sensors on prosthetic hand and transmit signal to PC through SCI.</p>
+
+	</div>
+		<div class="section newsection" id="section6">
+                <span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">Knowledge sharing...</span>
+			    <a href="/javascript:" onClick="window.open('html/memorypool.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 220px; text-align: justify;width: 900px;text-decoration: underline;">TCE UGM 20130527 Memory Pool</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/digitalcap.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 250px; text-align: justify;width: 900px;text-decoration: underline;">TCE UGM 20130819 Digital Capture Issues With CTIM CLEV MEAS</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/resultmemory.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 280px; text-align: justify;width: 900px;text-decoration: underline;">TCE UGM 20131125 Digital Result Memory Handling In SMT7.2.1</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/workwithflush.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 310px; text-align: justify;width: 900px;text-decoration: underline;">TCE UGM 20140331 Working With FLUSH</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/iddprofiling.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 340px; text-align: justify;width: 900px;text-decoration: underline;">VOICE2014 Test Method For Instantaneous IDD Profiling</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/Qappinstall.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 370px; text-align: justify;width: 900px;text-decoration: underline;">Qualcomm Application Model Installation Procedure</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/angelhandler.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 400px; text-align: justify;width: 900px;text-decoration: underline;">Qualcomm Angel Handler APP Development Rev01</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/loopbacktest.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 430px; text-align: justify;width: 900px;text-decoration: underline;">Loopback Implementation In Baseband Processor Mixed-signal Testing</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/ecstesttime.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 460px; text-align: justify;width: 900px;text-decoration: underline;">Test Time Reduction For ECS Testing With Dynamic/DCSmartCalc</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/DPSinterference.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 490px; text-align: justify;width: 900px;text-decoration: underline;">DPS64/DPS128 Card Interference With MCE Analog Instrument</p></a>    
+			    <a href="/javascript:" onClick="window.open('html/torinolb.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 520px; text-align: justify;width: 900px;text-decoration: underline;">Torino Fairlane FTx12 LoadBoard RevB Debugging</p></a> 
+			    <a href="/javascript:" onClick="window.open('html/convertGimliTML.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 550px; text-align: justify;width: 900px;text-decoration: underline;">Convert Gimli_TML to SOC_TML for BBRx Testing</p></a>  
+			    <a href="/javascript:" onClick="window.open('html/AnalogSet_Generatation_Issue.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 580px; text-align: justify;width: 900px;text-decoration: underline;">AnalogSet Generation Issue with SOC_tml</p></a> 
+			    <a href="/javascript:" onClick="window.open('html/AWG_trigger_issue.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 610px; text-align: justify;width: 900px;text-decoration: underline;">AWG Trigger Issue with SOC_tml</p></a> 
+                <a href="/javascript:" onClick="window.open('html/PSRF_ASD_Project.html')" target="_blank"><p style="position: absolute;height: 5px; color:green; font-size: 1.5em;left: 80px;top: 640px; text-align: justify;width: 900px;text-decoration: underline;">PSRF Application Skill Development Project</p></a>
+
+	</div>
+	
+	<div class="section newsection" id="section7">
+ <span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">Working with R&D on the issues</span>
+<table border="1" width="900px" height="20px" style="border-collapse: collapse;position: absolute;left:50px;font-size: 2em;top:180px;"> 
+    <tbody style="font-size: 0.4em;left: 50px;text-align: justify; border:1px solid black;border-collapse:
+collapse;"> 
+        <tr style="font-size: bold;border:1px solid black; height: 50px;" > 
+            <th style="border:1px solid black;text-align: center;width: 85px;height: 40px;font-weight: bold;border-collapse:
+collapse;padding:2px 2px" >Internal Key</th> 
+            <th style="border:1px solid black;text-align: center;width: 85px;height: 40px;font-weight: bold;border-collapse:
+collapse;padding:2px 2px">Key</th> 					
+            <th style="border:1px solid black;text-align: center;width: 550px;height: 30px;font-weight: bold;border-collapse:
+collapse;padding:2px 2px">Summary</th>
+            <!-- <th style="border:1px solid black;text-align: center;width: 90px;">Reporter</th> -->
+            <th style="border:1px solid black;text-align: center;width: 120px;height: 30px;font-weight: bold;border-collapse:
+collapse;padding:2px 2px">Affects Version/s</th>
+            <th style="border:1px solid black;text-align: center;width: 80px;height: 30px;font-weight: bold;border-collapse:
+collapse;">Issue Type</th>
+            <th style="border:1px solid black;text-align: center;width: 80px;height: 30px;font-weight: bold;border-collapse:
+collapse;padding:2px 2px">Severity</th>
+            <th style="border:1px solid black;text-align: center;width: 120px;height: 30px;font-weight: bold;border-collapse:
+collapse;padding:2px 2px">Fix Version/s</th>
+        </tr> 
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;" ><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td> 
+            <td style="border:1px solid black;" ><a href="https://wetrack.advantest.com/browse/QCOM-1083" target="_blank">QCOM-1083</a></td> 
+            <td style="border:1px solid black;" >TAT tool can not analyse tab signal in the model file</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.3.1.4</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;" >Critical</td>
+            <td style="border:1px solid black;">SmarTest7.3.2.10</td>
+        </tr> 
+          <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-99705" target="_blank">CR-99705</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-1072" target="_blank">QCOM-1072</a></td> 
+            <td style="border:1px solid black;line-height:20px;">BADC measurement give same result between sites rather than giving error message</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.3.2.1</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Critical</td>
+            <td style="border:1px solid black;">SmarTest 7.3.3.0</td>
+        </tr> 
+
+         <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-94083" target="_blank">CR-94083</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-955" target="_blank">QCOM-955</a></td> 
+            <td style="border:1px solid black; line-height: 20px">CTF does not support semi-parallel test</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.3.2.2</td>
+            <td style="border:1px solid black;">Enhancement</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">Wil not fix</td>
+        </tr> 
+         <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-92050" target="_blank">CR-92050</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-909" target="_blank">QCOM-909</a></td> 
+            <td style="border:1px solid black; line-height: 20px">TAT cann't generate vector&tmu license</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.2.5</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">SmarTest 7.2.3.2</td>
+        </tr> 
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-91241" target="_blank">CR-91241</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-877" target="_blank">QCOM-877</a></td> 
+            <td style="border:1px solid black; line-height: 20px">Testflow sequence editor doesn't allow to change tesflow conditions.</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.2.4</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">SmarTest 7.3.2.0</td>
+        </tr> 
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-88612" target="_blank">CR-88612</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-798" target="_blank">QCOM-798</a></td> 
+            <td style="border:1px solid black; line-height: 20px">SMC_CLEANUP can not terminate threads of the currently active site and release analog result handle</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.2.4</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">SmarTest 7.3.2.0</td>
+        </tr> 
+
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-88525" target="_blank">CR-88525</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-794" target="_blank">QCOM-794</a></td> 
+            <td style="border:1px solid black; line-height: 20px">DPS-64 card interference with MCE</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.2.4</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Critical</td>
+            <td style="border:1px solid black;">SmarTest 7.3.2.0</td>
+        </tr> 
+   <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-86237" target="_blank">CR-86237</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-671" target="_blank">QCOM-671</a></td> 
+            <td style="border:1px solid black; line-height: 20px">SOC_tml: ProductionIDDQ doesn't support Multiport Burst Label</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.5</td>
+            <td style="border:1px solid black;">Enhancement</td>
+            <td style="border:1px solid black;">Critical</td>
+            <td style="border:1px solid black;">SmarTest 7.3.2.0</td>
+        </tr> 
+
+          <tr style="border:1px solid black;line-height:35px;     "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-85279" target="_blank">CR-85279</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-590" target="_blank">QCOM-590</a></td> 
+            <td style="border:1px solid black; line-height: 20px">SOC_tml and DC_tml: OutputDC cann't handle with Multiport Burst Label</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.4</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">SmarTest 7.2.2.1</td>
+        </tr> 
+
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-85276" target="_blank">CR-85276</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-589" target="_blank">QCOM-589</a></td> 
+            <td style="border:1px solid black; line-height: 20px">Smartest need the ability to save patterns with pin alias name</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.4</td>
+            <td style="border:1px solid black;">Enhancement</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">SmarTest 7.2.2.1</td>
+        </tr> 
+
+          <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-80914" target="_blank">CR-80914</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-219" target="_blank">QCOM-219</a></td> 
+            <td style="border:1px solid black; line-height: 20px">Let Smartest balance waveform sets number and waveforms Index</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.1.4.7</td>
+            <td style="border:1px solid black;">Enhancement</td>
+            <td style="border:1px solid black;">Critical</td>
+            <td style="border:1px solid black;">SmarTest 8.0.0.0</td>
+        </tr> 
+
+          <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-80189" target="_blank">CR-80189</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-158" target="_blank">QCOM-158</a></td> 
+            <td style="border:1px solid black; line-height: 20px">Need to prevent vector loading after ERROR: Out of channel memory downloading sequencer program</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.1.4.7</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Critical</td>
+            <td style="border:1px solid black;">SmarTest 7.1.4.8</td>
+        </tr> 
+        
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-79182" target="_blank">CR-79182</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-83" target="_blank">QCOM-83</a></td> 
+            <td style="border:1px solid black; line-height: 20px">Delta handler communication hang-up (GPIB) when doing muti-sites testing</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.1.4.7</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Critical</td>
+            <td style="border:1px solid black;">SmarTest 7.1.4.8</td>
+        </tr> 
+
+        <tr style="border:1px solid black;line-height:35px;        "> 
+            <td style="border:1px solid black;height: 20px;"><a href="https://wetrack.advantest.com/browse/CR-78975" target="_blank">CR-78975</a></td> 
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-58" target="_blank">QCOM-58</a></td> 
+            <td style="border:1px solid black; line-height: 20px">Smartest can not handle testtable master file</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.1.4.4</td>
+            <td style="border:1px solid black;">Defect</td>
+            <td style="border:1px solid black;">Serious</td>
+            <td style="border:1px solid black;">SmarTest 7.1.4.7</td>
+        </tr> 
+
+    </tbody> 
+</table> 
+	</div>
+	
+	
+	<div class="section newsection" id="section8">
+		 <span style="position: absolute;font-size: 3em; font-style:oblique; left: 100px;top:100px;">Working with Customer on the SOC tml</span>
+<!--<table border="1" width="900px"> 
+    <tbody style="font-size: 0.4em;left: 0px;text-align: justify; border:1px solid black;position: absolute;left:50px;font-size: 2em;top:180px;"> -->
+    
+    <table border="1" width="900px" height="20px" style="border-collapse: collapse;position: absolute;left:50px;font-size: 2em;top:180px;"> 
+    <tbody style="font-size: 0.4em;left: 50px;text-align: justify; border:1px solid black;border-collapse:collapse;"> 
+    
+    
+    
+        <tr style="font-size: bold;border:1px solid black;" > 
+            <!-- <th style="border:1px solid black;text-align: center; width: 100px;" >Internal Key</th>  -->
+            <th style="border:1px solid black;text-align: center;width: 100px;">Key</th> 					
+            <th style="border:1px solid black;text-align: center;width: 400px;">Summary</th>
+            <!-- <th style="border:1px solid black;text-align: center;width: 90px;">Reporter</th> -->
+            <th style="border:1px solid black;text-align: center;width: 130px;">Affects Version/s</th>
+            <th style="border:1px solid black;text-align: center;width: 100px;">Issue Type</th>
+            <th style="border:1px solid black;text-align: center;width: 100px;">Severity</th>
+            <!-- <th style="border:1px solid black;text-align: center;width: 130px;">Fix Version/s</th> -->
+        </tr> 
+        <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-828" target="_blank">QCOM-828</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] Operating current TM cann't differentiate between DPS32 and DPS128/64.</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.2.2</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+        <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-789" target="_blank">QCOM-789</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] Need to put the core # into Digitizer Sequencer Label.</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.2.4</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+                <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-726" target="_blank">QCOM-726</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] SOC_tml OutputDC cann't handle with Multiport Burst Label</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.4</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+         <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-474" target="_blank">QCOM-474</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] BBRx tone calculation to add the string to testname needs to be revised</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.2</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+             <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-473" target="_blank">QCOM-473</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] BBRx.ADCs_to_Test parameter is invalid, always testing for all ADCs</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.1</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+             <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-472" target="_blank">QCOM-472</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] BBRx Jammer calculation need to take care of some CHAR condition</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.1</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+               <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-471" target="_blank">QCOM-471</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] BBRx SNR calculation need to take care of some CHAR condition</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.2</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+        <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-410" target="_blank">QCOM-410</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] PA code cann't handle empty sync group in multiport burst when Development Mode >=2.</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.0</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+
+ <tr style="border:1px solid black;"> 
+         <!--    <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/CR-101464" target="_blank">CR-101464</a></td>  -->
+            <td style="border:1px solid black;"><a href="https://wetrack.advantest.com/browse/QCOM-385" target="_blank">QCOM-385</a></td> 
+            <td style="border:1px solid black; line-height: 20px">[SOC Lib] Wrong generation of Test Name for BBRx test in SOC TML.</td>
+            <!-- <td style="border:1px solid black;">Stephen Fu</td> -->
+            <td style="border:1px solid black;">SmarTest 7.2.1.0</td>
+            <td style="border:1px solid black;">Apps Issue</td>
+            <td style="border:1px solid black;">Serious</td>
+            <!-- <td style="border:1px solid black;">SmarTest7.3.2.10</td> -->
+        </tr> 
+
+
+    </tbody> 
+</table> 
+	</div>
+	
+		<div class="section newsection" id="section9">
+	    <p id="St10txt" style="position: absolute;color:green; font-size: 3em;width:900px;left: 100px;top: 100px;">I'm open to all possibilities, Please contact me with application engineering opportunities.</p>
+           <!--    <span style="position: absolute;color:green; font-size: 1em;left: 150px;top: 150px;">Please contact me with application engineering opportunities.</span>  -->
+            
+             <!--<p style="position:absolute;color:blue; font-size: 3em;left:180;top:280px;">Stephen Fu</p>-->
+             <p id="St10mail" style="position: absolute;color:blue; font-size: 3em;left: 200px;top: 360px;text-decoration: underline;">Email: <a href=mailto:stephen.fu@advantest.com>Stephen Fu@Advantest</a></p>
+             <p id="St10mobile" style="position: absolute;color:blue; font-size: 3em;left: 200px;top: 420px;text-decoration: underline;">Mobile: (+65) 98582178</p>
+             <p id="St10resume" style="position: absolute;color:blue; font-size: 3em;left: 200px;top: 480px;text-decoration: underline;">Resume pdf: <a href="/javascript:" onClick="window.open('html/resume.html')" target="_blank">my resume detail</a></p>
+
+        <!--<h3><p id="St10txt" style="position: absolute;color:green;font-size: 4em; top: 100px;">I'm open to all possibilities, Please contact me with application engineering opportunities.</p></h3>-->
+        
+        
+        
+        <!--<h1>Stephen Fu</h1>
+		<h3>Email: <a href=mailto:stephen.fu@advantest.com>Stephen Fu@Advantest</a></h3>
+		<h3>Mobile: (+65) 98582178</h3>
+		<h3>Resume pdf: <a href="/javascript:" onClick="window.open('html/resume.html')" target="_blank">my resume detail</a></h3>-->
+     
+	</div>
+	
+		<div class="section newsection" id="section10">
+ 	 <!--<p id="Thank" style="position: absolute;color:green; font-size: 1.8em;left: 200px;top: 200px;">Thank you for viewing</p>-->
+		<h1 style="position: absolute;color:green; font-size: 3em;width:900px;left: 100px;top: 400px;"> Thank you for viewing </h1>
+	</div>
+	
+	
+	
+	
+</div>
+		
+		
+		
+		
+		
+	</body>
+</html>
